@@ -1,0 +1,30 @@
+.NavItems{
+    margin:0;
+    /* display: flex; */
+    height: auto;
+    width:auto;
+    /* align-items: space-between; */
+    list-style: none;
+    /* color:white; */
+    color:white;
+    /* float:right; */
+    margin-left:25px;
+    font-size: 14px;
+    font-family :"Source Sans Pro", sans-serif;
+    font-weight: 500;
+}
+.NavItemsForCF{
+    margin:0;
+    /* display: flex; */
+    height: auto;
+    width:auto;
+    /* align-items: space-between; */
+    list-style: none;
+    /* color:white; */
+    color:black;
+    /* float:right; */
+    margin-left:25px;
+    font-size: 14px;
+    font-family :"Source Sans Pro", sans-serif;
+    font-weight: 500;
+}

@@ -1,0 +1,89 @@
+.CommonHeader{
+    background-image: url("../../asset//Images/chimg1.jpg");
+    height:200px;
+    
+}
+
+.CommonHeader1{
+    background-color: #0000009f;
+    background-size: 100% 100%;;
+    box-sizing: border-box;
+    font-family :"Source Sans Pro", sans-serif;
+    font-size:20px;   	
+    display: flex;
+    flex-flow: row wrap;
+    /* align-items: flex-start; */
+    /* align-content: space-between; */
+    justify-content: flex-end;
+    height:63px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+.CommonHeader1 p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.CommonHeader2{
+    background-color: #0000007a;
+    background-size: 100% 100%;;
+    box-sizing: border-box;
+    font-family :"Source Sans Pro", sans-serif;
+    font-size:20px;   	
+    display: flex;
+    /* flex-flow: row nowrap; */
+    /* align-items: flex-start; */
+    /* align-content: space-between; */
+    justify-content: flex-start;
+    height:133px;
+    padding-top: 10px;
+    
+}
+
+
+
+
+.OtherServicesButton{
+    padding: 10px ;
+    text-decoration: none;
+    /* font-size: 16px; */
+    margin-top: 10px ;
+    height:18px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-align: center;
+    color:white;
+    background-color:  #30A653;
+    border-radius: 1px;
+    font-size: 14px;
+    /* box-shadow:0px 5px 10px inset  #1e6e21; */
+}
+.OtherServicesButton:hover{
+    background-color: green;
+    color: white;
+    text-decoration: underline;
+    /* border:2px solid white; */
+}
+
+.Logo{
+    background-color: rgb(255, 255, 255);
+    padding: 2px;
+    width: 250px;
+    height:56px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 35px;   
+}
+
+.ToolbarUL{
+    margin:0px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin-top: 2%;
+    margin-left: 15%;
+    /* width: auto;  */
+    /* float: right; */
+}
