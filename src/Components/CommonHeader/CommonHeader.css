@@ -1,7 +1,9 @@
 .CommonHeader{
     background-image: url("../../asset//Images/chimg1.jpg");
     height:200px;
-    
+    /* position: fixed;
+    top: 0;
+    width:100%;    */
 }
 
 .CommonHeader1{
@@ -86,4 +88,6 @@
     margin-left: 15%;
     /* width: auto;  */
     /* float: right; */
+
+
 }

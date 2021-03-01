@@ -1,6 +1,7 @@
 .App {
   /* text-align: center; */
-  margin-top:-15px;
+  /* margin-top:-15px; */
   position: relative;
   /* background-color: rgb(236, 221, 221); */
+  box-sizing: border-box;
 }

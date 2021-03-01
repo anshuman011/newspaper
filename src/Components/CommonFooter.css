@@ -1,0 +1,19 @@
+.Footer{
+    text-align: center;
+    
+    
+}
+
+.FooterUL{
+    margin-left:-80px;
+    opacity: 0.8;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    /* text-align: justify; */
+    
+    /* width: auto;  */
+    /* float: right; */
+
+}

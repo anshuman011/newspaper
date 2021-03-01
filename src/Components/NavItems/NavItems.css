@@ -11,8 +11,19 @@
     margin-left:25px;
     font-size: 14px;
     font-family :"Source Sans Pro", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
+    /* for tooltip */
+    position: relative;
 }
+
+.NavItems a{
+    color:white;
+    text-decoration: none;
+    /* width: 100%; */
+    /* box-sizing: border-box; */
+    /* display: block; */
+}
+
 .NavItemsForCF{
     margin:0;
     /* display: flex; */
@@ -23,8 +34,93 @@
     /* color:white; */
     color:black;
     /* float:right; */
+    margin-left:15px;
+    font-size: 15px;
+    font-family :"Source Sans Pro", sans-serif;
+    font-weight: 400;
+    /* for tooltip */
+    position: relative;
+}
+
+
+.NavItemsForCF a{
+    color:black;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    padding-right:10px;
+}
+
+.NavItemsForCF a:hover{
+    color:green;
+    text-decoration: none;
+    /* width: 100%; */
+    /* box-sizing: border-box; */
+    /* display: block; */
+    /* transition:transform 1s 1s ease-in-out; */
+    text-transform: uppercase;
+    /* letter-spacing: 1px; */
+}
+
+.NavItemsForAN{
+    margin:15px;
+    list-style: none;
+    /* color:rgba(0, 0, 0, 0.63); */
     margin-left:25px;
     font-size: 14px;
     font-family :"Source Sans Pro", sans-serif;
-    font-weight: 500;
+    font-weight: 700;
+    opacity: 0.7;
+    /* for tooltip */
+    position: relative;
+}
+
+.NavItemsForAN a{
+    color:rgba(0, 0, 0, 0.849);
+    text-decoration: none;
+}
+
+
+.NavItemsForAN a:hover{
+    color:green;
+    text-decoration: underline;
+    opacity: 1;
+    /* text-transform: uppercase; */
+    
+}
+
+.Tooltiptext{
+    visibility: hidden;
+    width: 90px;
+    background-color:rgba(0, 0, 0, 0.452);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    /* border-radius: 6px; */
+    padding: 5px 0;
+    border: 1px solid white;
+    font-size: 10px;
+    opacity: 0;
+    transition: opacity 0.5s linear 0.5s;
+    /* display: inline; */
+    clip:auto;
+    /* Position the tooltip and position relative on */ 
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    /* margin-left: -60px; */
+    z-index: 1;
+}
+
+.NavItems:hover .Tooltiptext/* ,.NavItemsForCF:hover .Tooltiptext */{
+    visibility: visible;
+    opacity: 1;
+}
+.NavItemsForAN:hover .Tooltiptext{
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+    top: 120%;
+    left: 12%;
+    background-color: rgba(0, 0, 0, 0.842);
 }

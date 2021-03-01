@@ -1,0 +1,37 @@
+.DigitalSubscription{
+    height:90%;
+    width:100%;
+    display:flex;
+    flex-flow: row wrap;
+    align-items:center;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+}
+
+.OneNewspaper{
+    height: 660px;
+    width:380px;
+    position: relative;
+    border-radius: 10px;
+    padding:5px 0 0 0;
+    margin:20px 20px 65px 20px;
+    background-color: white;
+}
+
+.OneNewspaper .Imgg{
+    width:80%;
+    height: 200px;
+    margin-left: 10%;
+}
+
+.OneNewspaper button{
+background-color: #15A59B;
+color: white;
+text-align: center;
+margin-left: 25%;
+margin-top: 20px;
+border:none;
+font-size: 18px;
+font-weight: 600;
+padding: 10px;
+}

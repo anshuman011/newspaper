@@ -1,0 +1,12 @@
+.AllNewsPapers{
+    height: 100%;
+    width:100%;
+}
+
+
+.AllNewsPapersUL{
+    list-style: none;
+    display: flex;
+    /* flex-flow: row wrap; */
+    justify-content: space-around;
+}
