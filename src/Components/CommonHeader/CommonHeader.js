@@ -22,7 +22,7 @@ const commonHeader =()=>{
             </DivForIcon>
         </div>
         <div className="CommonHeader2">
-            <img className="Logo" src={newsLogo} alt="NewsLogo"/>
+            <img className="Logo" src={newsLogo} alt="NewsLogo" />
             <ul className="ToolbarUL">
                 <NavItems toHere="/">HOME</NavItems>
                 <NavItems toHere="/how_it_works">HOW IT WORKS</NavItems>
